@@ -62,7 +62,7 @@
     
     [self.view addSubview:self.treeView];
     
-    CellModel *treeNode = [[CellModel alloc]initWithName:@"千峰-西安分公司" children:[NSMutableArray array]];
+    CellModel *treeNode = [[CellModel alloc]initWithName:@"RATree公司" children:[NSMutableArray array]];
     
     
     [self.dataSource addObject:treeNode];
