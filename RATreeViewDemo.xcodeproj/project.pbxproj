@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6E3E1501D1B958000FC0611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E14F1D1B958000FC0611 /* main.m */; };
+		B6E3E1531D1B958000FC0611 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E1521D1B958000FC0611 /* AppDelegate.m */; };
+		B6E3E1561D1B958000FC0611 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E1551D1B958000FC0611 /* ViewController.m */; };
+		B6E3E1591D1B958000FC0611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E3E1571D1B958000FC0611 /* Main.storyboard */; };
+		B6E3E15B1D1B958000FC0611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E3E15A1D1B958000FC0611 /* Assets.xcassets */; };
+		B6E3E15E1D1B958000FC0611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E3E15C1D1B958000FC0611 /* LaunchScreen.storyboard */; };
+		B6E3E1691D1B958000FC0611 /* RATreeViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E1681D1B958000FC0611 /* RATreeViewDemoTests.m */; };
+		B6E3E1741D1B958000FC0611 /* RATreeViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E1731D1B958000FC0611 /* RATreeViewDemoUITests.m */; };
+		B6E3E2761D1B9A0700FC0611 /* RABatchChangeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E2561D1B9A0700FC0611 /* RABatchChangeEntity.m */; };
+		B6E3E2771D1B9A0700FC0611 /* RABatchChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E2581D1B9A0700FC0611 /* RABatchChanges.m */; };
+		B6E3E2781D1B9A0700FC0611 /* RATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E25A1D1B9A0700FC0611 /* RATableView.m */; };
+		B6E3E2791D1B9A0700FC0611 /* RATreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E25C1D1B9A0700FC0611 /* RATreeNode.m */; };
+		B6E3E27A1D1B9A0700FC0611 /* RATreeNodeCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E25F1D1B9A0700FC0611 /* RATreeNodeCollectionController.m */; };
+		B6E3E27B1D1B9A0700FC0611 /* RATreeNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E2611D1B9A0700FC0611 /* RATreeNodeController.m */; };
+		B6E3E27C1D1B9A0700FC0611 /* RATreeNodeItem+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E2641D1B9A0700FC0611 /* RATreeNodeItem+Private.m */; };
+		B6E3E27D1D1B9A0700FC0611 /* RATreeNodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E2661D1B9A0700FC0611 /* RATreeNodeItem.m */; };
+		B6E3E27E1D1B9A0700FC0611 /* RATreeView+Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E2681D1B9A0700FC0611 /* RATreeView+Enums.m */; };
+		B6E3E27F1D1B9A0700FC0611 /* RATreeView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E26A1D1B9A0700FC0611 /* RATreeView+Private.m */; };
+		B6E3E2801D1B9A0700FC0611 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E26C1D1B9A0700FC0611 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */; };
+		B6E3E2811D1B9A0700FC0611 /* RATreeView+TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E26E1D1B9A0700FC0611 /* RATreeView+TableViewDataSource.m */; };
+		B6E3E2821D1B9A0700FC0611 /* RATreeView+TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E2701D1B9A0700FC0611 /* RATreeView+TableViewDelegate.m */; };
+		B6E3E2831D1B9A0700FC0611 /* RATreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E2731D1B9A0700FC0611 /* RATreeView.m */; };
+		B6E3E2841D1B9A0700FC0611 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6E3E2751D1B9A0700FC0611 /* Info.plist */; };
+		B6E3E2881D1B9D6300FC0611 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E2871D1B9D6300FC0611 /* CellModel.m */; };
+		B6E3E28D1D1B9F0B00FC0611 /* TreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3E28B1D1B9F0B00FC0611 /* TreeTableViewCell.m */; };
+		B6E3E28E1D1B9F0B00FC0611 /* TreeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E3E28C1D1B9F0B00FC0611 /* TreeTableViewCell.xib */; };
+		B6E3E2921D1BCE3100FC0611 /* header_arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E3E2901D1BCE3100FC0611 /* header_arrow_down@2x.png */; };
+		B6E3E2931D1BCE3100FC0611 /* header_arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E3E2911D1BCE3100FC0611 /* header_arrow_right@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6E3E1651D1B958000FC0611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E3E1431D1B958000FC0611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E3E14A1D1B958000FC0611;
+			remoteInfo = RATreeViewDemo;
+		};
+		B6E3E1701D1B958000FC0611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E3E1431D1B958000FC0611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E3E14A1D1B958000FC0611;
+			remoteInfo = RATreeViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6E3E14B1D1B958000FC0611 /* RATreeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RATreeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E3E14F1D1B958000FC0611 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6E3E1511D1B958000FC0611 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6E3E1521D1B958000FC0611 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6E3E1541D1B958000FC0611 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6E3E1551D1B958000FC0611 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6E3E1581D1B958000FC0611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6E3E15A1D1B958000FC0611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6E3E15D1D1B958000FC0611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6E3E15F1D1B958000FC0611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E3E1641D1B958000FC0611 /* RATreeViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RATreeViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E3E1681D1B958000FC0611 /* RATreeViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RATreeViewDemoTests.m; sourceTree = "<group>"; };
+		B6E3E16A1D1B958000FC0611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E3E16F1D1B958000FC0611 /* RATreeViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RATreeViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E3E1731D1B958000FC0611 /* RATreeViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RATreeViewDemoUITests.m; sourceTree = "<group>"; };
+		B6E3E1751D1B958000FC0611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E3E2551D1B9A0700FC0611 /* RABatchChangeEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RABatchChangeEntity.h; sourceTree = "<group>"; };
+		B6E3E2561D1B9A0700FC0611 /* RABatchChangeEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RABatchChangeEntity.m; sourceTree = "<group>"; };
+		B6E3E2571D1B9A0700FC0611 /* RABatchChanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RABatchChanges.h; sourceTree = "<group>"; };
+		B6E3E2581D1B9A0700FC0611 /* RABatchChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RABatchChanges.m; sourceTree = "<group>"; };
+		B6E3E2591D1B9A0700FC0611 /* RATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATableView.h; sourceTree = "<group>"; };
+		B6E3E25A1D1B9A0700FC0611 /* RATableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATableView.m; sourceTree = "<group>"; };
+		B6E3E25B1D1B9A0700FC0611 /* RATreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeNode.h; sourceTree = "<group>"; };
+		B6E3E25C1D1B9A0700FC0611 /* RATreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATreeNode.m; sourceTree = "<group>"; };
+		B6E3E25D1D1B9A0700FC0611 /* RATreeNode_ClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeNode_ClassExtension.h; sourceTree = "<group>"; };
+		B6E3E25E1D1B9A0700FC0611 /* RATreeNodeCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeNodeCollectionController.h; sourceTree = "<group>"; };
+		B6E3E25F1D1B9A0700FC0611 /* RATreeNodeCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATreeNodeCollectionController.m; sourceTree = "<group>"; };
+		B6E3E2601D1B9A0700FC0611 /* RATreeNodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeNodeController.h; sourceTree = "<group>"; };
+		B6E3E2611D1B9A0700FC0611 /* RATreeNodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATreeNodeController.m; sourceTree = "<group>"; };
+		B6E3E2621D1B9A0700FC0611 /* RATreeNodeItem+ClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeNodeItem+ClassExtension.h"; sourceTree = "<group>"; };
+		B6E3E2631D1B9A0700FC0611 /* RATreeNodeItem+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeNodeItem+Private.h"; sourceTree = "<group>"; };
+		B6E3E2641D1B9A0700FC0611 /* RATreeNodeItem+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeNodeItem+Private.m"; sourceTree = "<group>"; };
+		B6E3E2651D1B9A0700FC0611 /* RATreeNodeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeNodeItem.h; sourceTree = "<group>"; };
+		B6E3E2661D1B9A0700FC0611 /* RATreeNodeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATreeNodeItem.m; sourceTree = "<group>"; };
+		B6E3E2671D1B9A0700FC0611 /* RATreeView+Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+Enums.h"; sourceTree = "<group>"; };
+		B6E3E2681D1B9A0700FC0611 /* RATreeView+Enums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+Enums.m"; sourceTree = "<group>"; };
+		B6E3E2691D1B9A0700FC0611 /* RATreeView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+Private.h"; sourceTree = "<group>"; };
+		B6E3E26A1D1B9A0700FC0611 /* RATreeView+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+Private.m"; sourceTree = "<group>"; };
+		B6E3E26B1D1B9A0700FC0611 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+RATreeNodeCollectionControllerDataSource.h"; sourceTree = "<group>"; };
+		B6E3E26C1D1B9A0700FC0611 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+RATreeNodeCollectionControllerDataSource.m"; sourceTree = "<group>"; };
+		B6E3E26D1D1B9A0700FC0611 /* RATreeView+TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+TableViewDataSource.h"; sourceTree = "<group>"; };
+		B6E3E26E1D1B9A0700FC0611 /* RATreeView+TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+TableViewDataSource.m"; sourceTree = "<group>"; };
+		B6E3E26F1D1B9A0700FC0611 /* RATreeView+TableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RATreeView+TableViewDelegate.h"; sourceTree = "<group>"; };
+		B6E3E2701D1B9A0700FC0611 /* RATreeView+TableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RATreeView+TableViewDelegate.m"; sourceTree = "<group>"; };
+		B6E3E2711D1B9A0700FC0611 /* RATreeView_ClassExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeView_ClassExtension.h; sourceTree = "<group>"; };
+		B6E3E2721D1B9A0700FC0611 /* RATreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATreeView.h; sourceTree = "<group>"; };
+		B6E3E2731D1B9A0700FC0611 /* RATreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATreeView.m; sourceTree = "<group>"; };
+		B6E3E2751D1B9A0700FC0611 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E3E2861D1B9D6300FC0611 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		B6E3E2871D1B9D6300FC0611 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		B6E3E28A1D1B9F0B00FC0611 /* TreeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTableViewCell.h; sourceTree = "<group>"; };
+		B6E3E28B1D1B9F0B00FC0611 /* TreeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeTableViewCell.m; sourceTree = "<group>"; };
+		B6E3E28C1D1B9F0B00FC0611 /* TreeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TreeTableViewCell.xib; sourceTree = "<group>"; };
+		B6E3E2901D1BCE3100FC0611 /* header_arrow_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_arrow_down@2x.png"; sourceTree = "<group>"; };
+		B6E3E2911D1BCE3100FC0611 /* header_arrow_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_arrow_right@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E3E1481D1B958000FC0611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3E1611D1B958000FC0611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3E16C1D1B958000FC0611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6E3E1421D1B958000FC0611 = {
+			isa = PBXGroup;
+			children = (
+				B6E3E14D1D1B958000FC0611 /* RATreeViewDemo */,
+				B6E3E1671D1B958000FC0611 /* RATreeViewDemoTests */,
+				B6E3E1721D1B958000FC0611 /* RATreeViewDemoUITests */,
+				B6E3E14C1D1B958000FC0611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E3E14C1D1B958000FC0611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E14B1D1B958000FC0611 /* RATreeViewDemo.app */,
+				B6E3E1641D1B958000FC0611 /* RATreeViewDemoTests.xctest */,
+				B6E3E16F1D1B958000FC0611 /* RATreeViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E3E14D1D1B958000FC0611 /* RATreeViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E2901D1BCE3100FC0611 /* header_arrow_down@2x.png */,
+				B6E3E2911D1BCE3100FC0611 /* header_arrow_right@2x.png */,
+				B6E3E28F1D1BA10200FC0611 /* Controller */,
+				B6E3E2891D1B9EDF00FC0611 /* View */,
+				B6E3E2851D1B9D5100FC0611 /* Model */,
+				B6E3E2531D1B9A0700FC0611 /* RATreeView */,
+				B6E3E1511D1B958000FC0611 /* AppDelegate.h */,
+				B6E3E1521D1B958000FC0611 /* AppDelegate.m */,
+				B6E3E1571D1B958000FC0611 /* Main.storyboard */,
+				B6E3E15A1D1B958000FC0611 /* Assets.xcassets */,
+				B6E3E15C1D1B958000FC0611 /* LaunchScreen.storyboard */,
+				B6E3E15F1D1B958000FC0611 /* Info.plist */,
+				B6E3E14E1D1B958000FC0611 /* Supporting Files */,
+			);
+			path = RATreeViewDemo;
+			sourceTree = "<group>";
+		};
+		B6E3E14E1D1B958000FC0611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E14F1D1B958000FC0611 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6E3E1671D1B958000FC0611 /* RATreeViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E1681D1B958000FC0611 /* RATreeViewDemoTests.m */,
+				B6E3E16A1D1B958000FC0611 /* Info.plist */,
+			);
+			path = RATreeViewDemoTests;
+			sourceTree = "<group>";
+		};
+		B6E3E1721D1B958000FC0611 /* RATreeViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E1731D1B958000FC0611 /* RATreeViewDemoUITests.m */,
+				B6E3E1751D1B958000FC0611 /* Info.plist */,
+			);
+			path = RATreeViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		B6E3E2531D1B9A0700FC0611 /* RATreeView */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E2541D1B9A0700FC0611 /* Private Files */,
+				B6E3E2721D1B9A0700FC0611 /* RATreeView.h */,
+				B6E3E2731D1B9A0700FC0611 /* RATreeView.m */,
+				B6E3E2741D1B9A0700FC0611 /* Support */,
+			);
+			path = RATreeView;
+			sourceTree = "<group>";
+		};
+		B6E3E2541D1B9A0700FC0611 /* Private Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E2551D1B9A0700FC0611 /* RABatchChangeEntity.h */,
+				B6E3E2561D1B9A0700FC0611 /* RABatchChangeEntity.m */,
+				B6E3E2571D1B9A0700FC0611 /* RABatchChanges.h */,
+				B6E3E2581D1B9A0700FC0611 /* RABatchChanges.m */,
+				B6E3E2591D1B9A0700FC0611 /* RATableView.h */,
+				B6E3E25A1D1B9A0700FC0611 /* RATableView.m */,
+				B6E3E25B1D1B9A0700FC0611 /* RATreeNode.h */,
+				B6E3E25C1D1B9A0700FC0611 /* RATreeNode.m */,
+				B6E3E25D1D1B9A0700FC0611 /* RATreeNode_ClassExtension.h */,
+				B6E3E25E1D1B9A0700FC0611 /* RATreeNodeCollectionController.h */,
+				B6E3E25F1D1B9A0700FC0611 /* RATreeNodeCollectionController.m */,
+				B6E3E2601D1B9A0700FC0611 /* RATreeNodeController.h */,
+				B6E3E2611D1B9A0700FC0611 /* RATreeNodeController.m */,
+				B6E3E2621D1B9A0700FC0611 /* RATreeNodeItem+ClassExtension.h */,
+				B6E3E2631D1B9A0700FC0611 /* RATreeNodeItem+Private.h */,
+				B6E3E2641D1B9A0700FC0611 /* RATreeNodeItem+Private.m */,
+				B6E3E2651D1B9A0700FC0611 /* RATreeNodeItem.h */,
+				B6E3E2661D1B9A0700FC0611 /* RATreeNodeItem.m */,
+				B6E3E2671D1B9A0700FC0611 /* RATreeView+Enums.h */,
+				B6E3E2681D1B9A0700FC0611 /* RATreeView+Enums.m */,
+				B6E3E2691D1B9A0700FC0611 /* RATreeView+Private.h */,
+				B6E3E26A1D1B9A0700FC0611 /* RATreeView+Private.m */,
+				B6E3E26B1D1B9A0700FC0611 /* RATreeView+RATreeNodeCollectionControllerDataSource.h */,
+				B6E3E26C1D1B9A0700FC0611 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */,
+				B6E3E26D1D1B9A0700FC0611 /* RATreeView+TableViewDataSource.h */,
+				B6E3E26E1D1B9A0700FC0611 /* RATreeView+TableViewDataSource.m */,
+				B6E3E26F1D1B9A0700FC0611 /* RATreeView+TableViewDelegate.h */,
+				B6E3E2701D1B9A0700FC0611 /* RATreeView+TableViewDelegate.m */,
+				B6E3E2711D1B9A0700FC0611 /* RATreeView_ClassExtension.h */,
+			);
+			path = "Private Files";
+			sourceTree = "<group>";
+		};
+		B6E3E2741D1B9A0700FC0611 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E2751D1B9A0700FC0611 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B6E3E2851D1B9D5100FC0611 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E2861D1B9D6300FC0611 /* CellModel.h */,
+				B6E3E2871D1B9D6300FC0611 /* CellModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B6E3E2891D1B9EDF00FC0611 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E28A1D1B9F0B00FC0611 /* TreeTableViewCell.h */,
+				B6E3E28B1D1B9F0B00FC0611 /* TreeTableViewCell.m */,
+				B6E3E28C1D1B9F0B00FC0611 /* TreeTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B6E3E28F1D1BA10200FC0611 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3E1541D1B958000FC0611 /* ViewController.h */,
+				B6E3E1551D1B958000FC0611 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E3E14A1D1B958000FC0611 /* RATreeViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E3E1781D1B958000FC0611 /* Build configuration list for PBXNativeTarget "RATreeViewDemo" */;
+			buildPhases = (
+				B6E3E1471D1B958000FC0611 /* Sources */,
+				B6E3E1481D1B958000FC0611 /* Frameworks */,
+				B6E3E1491D1B958000FC0611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RATreeViewDemo;
+			productName = RATreeViewDemo;
+			productReference = B6E3E14B1D1B958000FC0611 /* RATreeViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6E3E1631D1B958000FC0611 /* RATreeViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E3E17B1D1B958000FC0611 /* Build configuration list for PBXNativeTarget "RATreeViewDemoTests" */;
+			buildPhases = (
+				B6E3E1601D1B958000FC0611 /* Sources */,
+				B6E3E1611D1B958000FC0611 /* Frameworks */,
+				B6E3E1621D1B958000FC0611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E3E1661D1B958000FC0611 /* PBXTargetDependency */,
+			);
+			name = RATreeViewDemoTests;
+			productName = RATreeViewDemoTests;
+			productReference = B6E3E1641D1B958000FC0611 /* RATreeViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6E3E16E1D1B958000FC0611 /* RATreeViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E3E17E1D1B958000FC0611 /* Build configuration list for PBXNativeTarget "RATreeViewDemoUITests" */;
+			buildPhases = (
+				B6E3E16B1D1B958000FC0611 /* Sources */,
+				B6E3E16C1D1B958000FC0611 /* Frameworks */,
+				B6E3E16D1D1B958000FC0611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E3E1711D1B958000FC0611 /* PBXTargetDependency */,
+			);
+			name = RATreeViewDemoUITests;
+			productName = RATreeViewDemoUITests;
+			productReference = B6E3E16F1D1B958000FC0611 /* RATreeViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E3E1431D1B958000FC0611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "yang_li828@163.com";
+				TargetAttributes = {
+					B6E3E14A1D1B958000FC0611 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B6E3E1631D1B958000FC0611 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B6E3E14A1D1B958000FC0611;
+					};
+					B6E3E16E1D1B958000FC0611 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B6E3E14A1D1B958000FC0611;
+					};
+				};
+			};
+			buildConfigurationList = B6E3E1461D1B958000FC0611 /* Build configuration list for PBXProject "RATreeViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6E3E1421D1B958000FC0611;
+			productRefGroup = B6E3E14C1D1B958000FC0611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E3E14A1D1B958000FC0611 /* RATreeViewDemo */,
+				B6E3E1631D1B958000FC0611 /* RATreeViewDemoTests */,
+				B6E3E16E1D1B958000FC0611 /* RATreeViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E3E1491D1B958000FC0611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E3E2841D1B9A0700FC0611 /* Info.plist in Resources */,
+				B6E3E15E1D1B958000FC0611 /* LaunchScreen.storyboard in Resources */,
+				B6E3E15B1D1B958000FC0611 /* Assets.xcassets in Resources */,
+				B6E3E2931D1BCE3100FC0611 /* header_arrow_right@2x.png in Resources */,
+				B6E3E2921D1BCE3100FC0611 /* header_arrow_down@2x.png in Resources */,
+				B6E3E1591D1B958000FC0611 /* Main.storyboard in Resources */,
+				B6E3E28E1D1B9F0B00FC0611 /* TreeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3E1621D1B958000FC0611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3E16D1D1B958000FC0611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E3E1471D1B958000FC0611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E3E2821D1B9A0700FC0611 /* RATreeView+TableViewDelegate.m in Sources */,
+				B6E3E28D1D1B9F0B00FC0611 /* TreeTableViewCell.m in Sources */,
+				B6E3E27A1D1B9A0700FC0611 /* RATreeNodeCollectionController.m in Sources */,
+				B6E3E2801D1B9A0700FC0611 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */,
+				B6E3E2781D1B9A0700FC0611 /* RATableView.m in Sources */,
+				B6E3E27F1D1B9A0700FC0611 /* RATreeView+Private.m in Sources */,
+				B6E3E2761D1B9A0700FC0611 /* RABatchChangeEntity.m in Sources */,
+				B6E3E27D1D1B9A0700FC0611 /* RATreeNodeItem.m in Sources */,
+				B6E3E2811D1B9A0700FC0611 /* RATreeView+TableViewDataSource.m in Sources */,
+				B6E3E1561D1B958000FC0611 /* ViewController.m in Sources */,
+				B6E3E2771D1B9A0700FC0611 /* RABatchChanges.m in Sources */,
+				B6E3E2831D1B9A0700FC0611 /* RATreeView.m in Sources */,
+				B6E3E2881D1B9D6300FC0611 /* CellModel.m in Sources */,
+				B6E3E27E1D1B9A0700FC0611 /* RATreeView+Enums.m in Sources */,
+				B6E3E27B1D1B9A0700FC0611 /* RATreeNodeController.m in Sources */,
+				B6E3E1531D1B958000FC0611 /* AppDelegate.m in Sources */,
+				B6E3E27C1D1B9A0700FC0611 /* RATreeNodeItem+Private.m in Sources */,
+				B6E3E1501D1B958000FC0611 /* main.m in Sources */,
+				B6E3E2791D1B9A0700FC0611 /* RATreeNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3E1601D1B958000FC0611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E3E1691D1B958000FC0611 /* RATreeViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3E16B1D1B958000FC0611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E3E1741D1B958000FC0611 /* RATreeViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6E3E1661D1B958000FC0611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E3E14A1D1B958000FC0611 /* RATreeViewDemo */;
+			targetProxy = B6E3E1651D1B958000FC0611 /* PBXContainerItemProxy */;
+		};
+		B6E3E1711D1B958000FC0611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E3E14A1D1B958000FC0611 /* RATreeViewDemo */;
+			targetProxy = B6E3E1701D1B958000FC0611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6E3E1571D1B958000FC0611 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E3E1581D1B958000FC0611 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6E3E15C1D1B958000FC0611 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E3E15D1D1B958000FC0611 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6E3E1761D1B958000FC0611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6E3E1771D1B958000FC0611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E3E1791D1B958000FC0611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RATreeViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = L2Cplat.RATreeViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6E3E17A1D1B958000FC0611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RATreeViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = L2Cplat.RATreeViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6E3E17C1D1B958000FC0611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RATreeViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = L2Cplat.RATreeViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RATreeViewDemo.app/RATreeViewDemo";
+			};
+			name = Debug;
+		};
+		B6E3E17D1D1B958000FC0611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RATreeViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = L2Cplat.RATreeViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RATreeViewDemo.app/RATreeViewDemo";
+			};
+			name = Release;
+		};
+		B6E3E17F1D1B958000FC0611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RATreeViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = L2Cplat.RATreeViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RATreeViewDemo;
+			};
+			name = Debug;
+		};
+		B6E3E1801D1B958000FC0611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RATreeViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = L2Cplat.RATreeViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RATreeViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E3E1461D1B958000FC0611 /* Build configuration list for PBXProject "RATreeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E3E1761D1B958000FC0611 /* Debug */,
+				B6E3E1771D1B958000FC0611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E3E1781D1B958000FC0611 /* Build configuration list for PBXNativeTarget "RATreeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E3E1791D1B958000FC0611 /* Debug */,
+				B6E3E17A1D1B958000FC0611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E3E17B1D1B958000FC0611 /* Build configuration list for PBXNativeTarget "RATreeViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E3E17C1D1B958000FC0611 /* Debug */,
+				B6E3E17D1D1B958000FC0611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E3E17E1D1B958000FC0611 /* Build configuration list for PBXNativeTarget "RATreeViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E3E17F1D1B958000FC0611 /* Debug */,
+				B6E3E1801D1B958000FC0611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6E3E1431D1B958000FC0611 /* Project object */;
+}
